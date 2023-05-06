@@ -10,7 +10,10 @@ sudo apt purge -y nodejs npm
 git clone https://github.com/asdf-vm/asdf.git ~/.asdf --branch v0.11.3
 echo ". $HOME/.asdf/asdf.sh" >> ~/.bashrc
 echo ". $HOME/.asdf/completions/asdf.bash" >> ~/.bashrc
-source ~/.bashrc
+
+#source ~/.bashrc
+. $HOME/.asdf/asdf.sh
+. $HOME/.asdf/completions/asdf.bash
 
 asdf plugin-add erlang https://github.com/asdf-vm/asdf-erlang.git
 asdf plugin-add elixir https://github.com/asdf-vm/asdf-elixir.git
