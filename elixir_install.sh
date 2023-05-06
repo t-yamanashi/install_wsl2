@@ -18,7 +18,7 @@ echo ". $HOME/.asdf/completions/asdf.bash" >> ~/.bashrc
 asdf plugin-add erlang https://github.com/asdf-vm/asdf-erlang.git
 asdf plugin-add elixir https://github.com/asdf-vm/asdf-elixir.git
 
-asdf install erlang 24.0
-asdf install elixir 1.12.2
-asdf global erlang 24.0
-asdf global elixir 1.12.2
+asdf install erlang 25.0.4
+asdf install elixir 1.13.4-otp-25
+asdf global erlang 25.0.4
+asdf global elixir 1.13.4-otp-25
