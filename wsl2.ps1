@@ -1,4 +1,4 @@
-if (Test-Path rebootok.txt) {
+if (Test-Path rebootok.txt){
   echo ----------------
 } else {
   echo Install_WSL_and_VirtualMachinePlatform
