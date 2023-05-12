@@ -3,4 +3,4 @@ wget https://wslstorestorage.blob.core.windows.net/wslblob/wsl_update_x64.msi -O
 wsl_update_x64.msi
 pause
 wsl --update
-wsl install -d Ubuntu-22.04
+wsl --install Ubuntu-22.04
